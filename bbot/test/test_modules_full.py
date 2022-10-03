@@ -1,10 +1,8 @@
-import sys
 import shutil
 import logging
 from pathlib import Path
 from omegaconf import OmegaConf
 
-from bbot import cli
 from .bbot_fixtures import bbot_config, ensure_root  # noqa: F401
 
 log = logging.getLogger(f"bbot.test")
